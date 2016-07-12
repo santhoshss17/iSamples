@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SSInAppNotification_Sample' target in the 'SSInAppNotification_Sample' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

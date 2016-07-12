@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DF9E2A153095E20017F141 /* SSRadioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF9E29153095E20017F141 /* SSRadioItem.m */; };
+		04E932B7152B3F7900D589E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E932B6152B3F7900D589E9 /* UIKit.framework */; };
+		04E932B9152B3F7900D589E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E932B8152B3F7900D589E9 /* Foundation.framework */; };
+		04E932BB152B3F7900D589E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E932BA152B3F7900D589E9 /* CoreGraphics.framework */; };
+		04E932C1152B3F7900D589E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E932BF152B3F7900D589E9 /* InfoPlist.strings */; };
+		04E932C4152B3F7900D589E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E932C3152B3F7900D589E9 /* main.m */; };
+		04E932C7152B3F7900D589E9 /* iRadioButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E932C6152B3F7900D589E9 /* iRadioButtonAppDelegate.m */; };
+		04E932CB152B3F7900D589E9 /* iRadioButtonAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E932CA152B3F7900D589E9 /* iRadioButtonAppDelegate_iPhone.m */; };
+		04E932CE152B3F7A00D589E9 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E932CC152B3F7A00D589E9 /* MainWindow_iPhone.xib */; };
+		04E932D2152B3F7A00D589E9 /* iRadioButtonAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E932D1152B3F7A00D589E9 /* iRadioButtonAppDelegate_iPad.m */; };
+		04E932D5152B3F7A00D589E9 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E932D3152B3F7A00D589E9 /* MainWindow_iPad.xib */; };
+		04E932DE152B403200D589E9 /* SSRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E932DD152B403200D589E9 /* SSRadioButton.m */; };
+		04E932E2152B418000D589E9 /* RadioButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E932E0152B418000D589E9 /* RadioButton-Selected.png */; };
+		04E932E3152B418000D589E9 /* RadioButton-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E932E1152B418000D589E9 /* RadioButton-Unselected.png */; };
+		04E932E5152B435400D589E9 /* SSRadioButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E932E4152B435400D589E9 /* SSRadioButton.xib */; };
+		04E932E9152B57BA00D589E9 /* SSRadioButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E932E8152B57BA00D589E9 /* SSRadioButtonCell.m */; };
+		04E932EB152B57D000D589E9 /* SSRadioButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E932EA152B57D000D589E9 /* SSRadioButtonCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04DF9E28153095E20017F141 /* SSRadioItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRadioItem.h; sourceTree = "<group>"; };
+		04DF9E29153095E20017F141 /* SSRadioItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRadioItem.m; sourceTree = "<group>"; };
+		04DF9E2B1530A43B0017F141 /* SSRadioButtonProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRadioButtonProtocol.h; sourceTree = "<group>"; };
+		04E932B2152B3F7900D589E9 /* iRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E932B6152B3F7900D589E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04E932B8152B3F7900D589E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04E932BA152B3F7900D589E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04E932BE152B3F7900D589E9 /* iRadioButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRadioButton-Info.plist"; sourceTree = "<group>"; };
+		04E932C0152B3F7900D589E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04E932C2152B3F7900D589E9 /* iRadioButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRadioButton-Prefix.pch"; sourceTree = "<group>"; };
+		04E932C3152B3F7900D589E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E932C5152B3F7900D589E9 /* iRadioButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRadioButtonAppDelegate.h; sourceTree = "<group>"; };
+		04E932C6152B3F7900D589E9 /* iRadioButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRadioButtonAppDelegate.m; sourceTree = "<group>"; };
+		04E932C9152B3F7900D589E9 /* iRadioButtonAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iRadioButtonAppDelegate_iPhone.h; path = iPhone/iRadioButtonAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		04E932CA152B3F7900D589E9 /* iRadioButtonAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iRadioButtonAppDelegate_iPhone.m; path = iPhone/iRadioButtonAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		04E932CD152B3F7A00D589E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		04E932D0152B3F7A00D589E9 /* iRadioButtonAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iRadioButtonAppDelegate_iPad.h; path = iPad/iRadioButtonAppDelegate_iPad.h; sourceTree = "<group>"; };
+		04E932D1152B3F7A00D589E9 /* iRadioButtonAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iRadioButtonAppDelegate_iPad.m; path = iPad/iRadioButtonAppDelegate_iPad.m; sourceTree = "<group>"; };
+		04E932D4152B3F7A00D589E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		04E932DC152B403200D589E9 /* SSRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRadioButton.h; sourceTree = "<group>"; };
+		04E932DD152B403200D589E9 /* SSRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRadioButton.m; sourceTree = "<group>"; };
+		04E932E0152B418000D589E9 /* RadioButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Selected.png"; sourceTree = "<group>"; };
+		04E932E1152B418000D589E9 /* RadioButton-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Unselected.png"; sourceTree = "<group>"; };
+		04E932E4152B435400D589E9 /* SSRadioButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSRadioButton.xib; sourceTree = "<group>"; };
+		04E932E7152B57BA00D589E9 /* SSRadioButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRadioButtonCell.h; sourceTree = "<group>"; };
+		04E932E8152B57BA00D589E9 /* SSRadioButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRadioButtonCell.m; sourceTree = "<group>"; };
+		04E932EA152B57D000D589E9 /* SSRadioButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSRadioButtonCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E932AF152B3F7900D589E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E932B7152B3F7900D589E9 /* UIKit.framework in Frameworks */,
+				04E932B9152B3F7900D589E9 /* Foundation.framework in Frameworks */,
+				04E932BB152B3F7900D589E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DF9E26153095D40017F141 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04DF9E28153095E20017F141 /* SSRadioItem.h */,
+				04DF9E29153095E20017F141 /* SSRadioItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E932A7152B3F7900D589E9 = {
+			isa = PBXGroup;
+			children = (
+				04E932BC152B3F7900D589E9 /* iRadioButton */,
+				04E932B5152B3F7900D589E9 /* Frameworks */,
+				04E932B3152B3F7900D589E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E932B3152B3F7900D589E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E932B2152B3F7900D589E9 /* iRadioButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E932B5152B3F7900D589E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E932B6152B3F7900D589E9 /* UIKit.framework */,
+				04E932B8152B3F7900D589E9 /* Foundation.framework */,
+				04E932BA152B3F7900D589E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04E932BC152B3F7900D589E9 /* iRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				04E932C5152B3F7900D589E9 /* iRadioButtonAppDelegate.h */,
+				04E932C6152B3F7900D589E9 /* iRadioButtonAppDelegate.m */,
+				04DF9E26153095D40017F141 /* Model */,
+				04E932DB152B3FCD00D589E9 /* Radio Button */,
+				04E932C8152B3F7900D589E9 /* iPhone */,
+				04E932CF152B3F7A00D589E9 /* iPad */,
+				04E932BD152B3F7900D589E9 /* Supporting Files */,
+			);
+			path = iRadioButton;
+			sourceTree = "<group>";
+		};
+		04E932BD152B3F7900D589E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E932BE152B3F7900D589E9 /* iRadioButton-Info.plist */,
+				04E932BF152B3F7900D589E9 /* InfoPlist.strings */,
+				04E932C2152B3F7900D589E9 /* iRadioButton-Prefix.pch */,
+				04E932C3152B3F7900D589E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E932C8152B3F7900D589E9 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				04E932C9152B3F7900D589E9 /* iRadioButtonAppDelegate_iPhone.h */,
+				04E932CA152B3F7900D589E9 /* iRadioButtonAppDelegate_iPhone.m */,
+				04E932CC152B3F7A00D589E9 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		04E932CF152B3F7A00D589E9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				04E932D0152B3F7A00D589E9 /* iRadioButtonAppDelegate_iPad.h */,
+				04E932D1152B3F7A00D589E9 /* iRadioButtonAppDelegate_iPad.m */,
+				04E932D3152B3F7A00D589E9 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		04E932DB152B3FCD00D589E9 /* Radio Button */ = {
+			isa = PBXGroup;
+			children = (
+				04E932DF152B418000D589E9 /* Images */,
+				04E932E6152B577800D589E9 /* Cell */,
+				04DF9E2B1530A43B0017F141 /* SSRadioButtonProtocol.h */,
+				04E932DC152B403200D589E9 /* SSRadioButton.h */,
+				04E932DD152B403200D589E9 /* SSRadioButton.m */,
+				04E932E4152B435400D589E9 /* SSRadioButton.xib */,
+			);
+			path = "Radio Button";
+			sourceTree = "<group>";
+		};
+		04E932DF152B418000D589E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04E932E0152B418000D589E9 /* RadioButton-Selected.png */,
+				04E932E1152B418000D589E9 /* RadioButton-Unselected.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		04E932E6152B577800D589E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04E932E7152B57BA00D589E9 /* SSRadioButtonCell.h */,
+				04E932E8152B57BA00D589E9 /* SSRadioButtonCell.m */,
+				04E932EA152B57D000D589E9 /* SSRadioButtonCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E932B1152B3F7900D589E9 /* iRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E932D8152B3F7A00D589E9 /* Build configuration list for PBXNativeTarget "iRadioButton" */;
+			buildPhases = (
+				04E932AE152B3F7900D589E9 /* Sources */,
+				04E932AF152B3F7900D589E9 /* Frameworks */,
+				04E932B0152B3F7900D589E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRadioButton;
+			productName = iRadioButton;
+			productReference = 04E932B2152B3F7900D589E9 /* iRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E932A9152B3F7900D589E9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 04E932AC152B3F7900D589E9 /* Build configuration list for PBXProject "iRadioButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04E932A7152B3F7900D589E9;
+			productRefGroup = 04E932B3152B3F7900D589E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E932B1152B3F7900D589E9 /* iRadioButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E932B0152B3F7900D589E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E932C1152B3F7900D589E9 /* InfoPlist.strings in Resources */,
+				04E932CE152B3F7A00D589E9 /* MainWindow_iPhone.xib in Resources */,
+				04E932D5152B3F7A00D589E9 /* MainWindow_iPad.xib in Resources */,
+				04E932E2152B418000D589E9 /* RadioButton-Selected.png in Resources */,
+				04E932E3152B418000D589E9 /* RadioButton-Unselected.png in Resources */,
+				04E932E5152B435400D589E9 /* SSRadioButton.xib in Resources */,
+				04E932EB152B57D000D589E9 /* SSRadioButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E932AE152B3F7900D589E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E932C4152B3F7900D589E9 /* main.m in Sources */,
+				04E932C7152B3F7900D589E9 /* iRadioButtonAppDelegate.m in Sources */,
+				04E932CB152B3F7900D589E9 /* iRadioButtonAppDelegate_iPhone.m in Sources */,
+				04E932D2152B3F7A00D589E9 /* iRadioButtonAppDelegate_iPad.m in Sources */,
+				04E932DE152B403200D589E9 /* SSRadioButton.m in Sources */,
+				04E932E9152B57BA00D589E9 /* SSRadioButtonCell.m in Sources */,
+				04DF9E2A153095E20017F141 /* SSRadioItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E932BF152B3F7900D589E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E932C0152B3F7900D589E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04E932CC152B3F7A00D589E9 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E932CD152B3F7A00D589E9 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		04E932D3152B3F7A00D589E9 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E932D4152B3F7A00D589E9 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E932D6152B3F7A00D589E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E932D7152B3F7A00D589E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04E932D9152B3F7A00D589E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRadioButton/iRadioButton-Prefix.pch";
+				INFOPLIST_FILE = "iRadioButton/iRadioButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04E932DA152B3F7A00D589E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRadioButton/iRadioButton-Prefix.pch";
+				INFOPLIST_FILE = "iRadioButton/iRadioButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E932AC152B3F7900D589E9 /* Build configuration list for PBXProject "iRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E932D6152B3F7A00D589E9 /* Debug */,
+				04E932D7152B3F7A00D589E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E932D8152B3F7A00D589E9 /* Build configuration list for PBXNativeTarget "iRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E932D9152B3F7A00D589E9 /* Debug */,
+				04E932DA152B3F7A00D589E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E932A9152B3F7900D589E9 /* Project object */;
+}

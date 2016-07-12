@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F9C389B14F7B69400C8A33B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9C389A14F7B69400C8A33B /* Cocoa.framework */; };
+		7F9C38A514F7B69400C8A33B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C38A314F7B69400C8A33B /* InfoPlist.strings */; };
+		7F9C38A714F7B69400C8A33B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C38A614F7B69400C8A33B /* main.m */; };
+		7F9C38AB14F7B69400C8A33B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C38A914F7B69400C8A33B /* Credits.rtf */; };
+		7F9C38AE14F7B69400C8A33B /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C38AD14F7B69400C8A33B /* SSAppDelegate.m */; };
+		7F9C38B114F7B69500C8A33B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C38AF14F7B69500C8A33B /* MainMenu.xib */; };
+		7F9C38B814F7B74A00C8A33B /* SSInAppNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9C38B714F7B74A00C8A33B /* SSInAppNotification.framework */; };
+		7F9C38BA14F7B75C00C8A33B /* SSInAppNotification.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F9C38B714F7B74A00C8A33B /* SSInAppNotification.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F9C38B914F7B75500C8A33B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7F9C38BA14F7B75C00C8A33B /* SSInAppNotification.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F9C389614F7B69400C8A33B /* SSInAppNotification_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSInAppNotification_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9C389A14F7B69400C8A33B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7F9C389D14F7B69400C8A33B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7F9C389E14F7B69400C8A33B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7F9C389F14F7B69400C8A33B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F9C38A214F7B69400C8A33B /* SSInAppNotification_Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSInAppNotification_Sample-Info.plist"; sourceTree = "<group>"; };
+		7F9C38A414F7B69400C8A33B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F9C38A614F7B69400C8A33B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F9C38A814F7B69400C8A33B /* SSInAppNotification_Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSInAppNotification_Sample-Prefix.pch"; sourceTree = "<group>"; };
+		7F9C38AA14F7B69400C8A33B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7F9C38AC14F7B69400C8A33B /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		7F9C38AD14F7B69400C8A33B /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		7F9C38B014F7B69500C8A33B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7F9C38B714F7B74A00C8A33B /* SSInAppNotification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSInAppNotification.framework; path = SSInAppNotification_Sample/Frameworks/SSInAppNotification.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9C389314F7B69400C8A33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9C389B14F7B69400C8A33B /* Cocoa.framework in Frameworks */,
+				7F9C38B814F7B74A00C8A33B /* SSInAppNotification.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9C388B14F7B69400C8A33B = {
+			isa = PBXGroup;
+			children = (
+				7F9C38A014F7B69400C8A33B /* SSInAppNotification_Sample */,
+				7F9C389914F7B69400C8A33B /* Frameworks */,
+				7F9C389714F7B69400C8A33B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9C389714F7B69400C8A33B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C389614F7B69400C8A33B /* SSInAppNotification_Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9C389914F7B69400C8A33B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C38B714F7B74A00C8A33B /* SSInAppNotification.framework */,
+				7F9C389A14F7B69400C8A33B /* Cocoa.framework */,
+				7F9C389C14F7B69400C8A33B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F9C389C14F7B69400C8A33B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C389D14F7B69400C8A33B /* AppKit.framework */,
+				7F9C389E14F7B69400C8A33B /* CoreData.framework */,
+				7F9C389F14F7B69400C8A33B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7F9C38A014F7B69400C8A33B /* SSInAppNotification_Sample */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C38AC14F7B69400C8A33B /* SSAppDelegate.h */,
+				7F9C38AD14F7B69400C8A33B /* SSAppDelegate.m */,
+				7F9C38AF14F7B69500C8A33B /* MainMenu.xib */,
+				7F9C38A114F7B69400C8A33B /* Supporting Files */,
+			);
+			path = SSInAppNotification_Sample;
+			sourceTree = "<group>";
+		};
+		7F9C38A114F7B69400C8A33B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C38A214F7B69400C8A33B /* SSInAppNotification_Sample-Info.plist */,
+				7F9C38A314F7B69400C8A33B /* InfoPlist.strings */,
+				7F9C38A614F7B69400C8A33B /* main.m */,
+				7F9C38A814F7B69400C8A33B /* SSInAppNotification_Sample-Prefix.pch */,
+				7F9C38A914F7B69400C8A33B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F9C389514F7B69400C8A33B /* SSInAppNotification_Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9C38B414F7B69500C8A33B /* Build configuration list for PBXNativeTarget "SSInAppNotification_Sample" */;
+			buildPhases = (
+				7F9C389214F7B69400C8A33B /* Sources */,
+				7F9C389314F7B69400C8A33B /* Frameworks */,
+				7F9C389414F7B69400C8A33B /* Resources */,
+				7F9C38B914F7B75500C8A33B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSInAppNotification_Sample;
+			productName = SSInAppNotification_Sample;
+			productReference = 7F9C389614F7B69400C8A33B /* SSInAppNotification_Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9C388D14F7B69400C8A33B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = CastleRockResearch;
+			};
+			buildConfigurationList = 7F9C389014F7B69400C8A33B /* Build configuration list for PBXProject "SSInAppNotification_Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F9C388B14F7B69400C8A33B;
+			productRefGroup = 7F9C389714F7B69400C8A33B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9C389514F7B69400C8A33B /* SSInAppNotification_Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9C389414F7B69400C8A33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9C38A514F7B69400C8A33B /* InfoPlist.strings in Resources */,
+				7F9C38AB14F7B69400C8A33B /* Credits.rtf in Resources */,
+				7F9C38B114F7B69500C8A33B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9C389214F7B69400C8A33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9C38A714F7B69400C8A33B /* main.m in Sources */,
+				7F9C38AE14F7B69400C8A33B /* SSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F9C38A314F7B69400C8A33B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9C38A414F7B69400C8A33B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F9C38A914F7B69400C8A33B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9C38AA14F7B69400C8A33B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7F9C38AF14F7B69500C8A33B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9C38B014F7B69500C8A33B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F9C38B214F7B69500C8A33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F9C38B314F7B69500C8A33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F9C38B514F7B69500C8A33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SSInAppNotification_Sample/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSInAppNotification_Sample/SSInAppNotification_Sample-Prefix.pch";
+				INFOPLIST_FILE = "SSInAppNotification_Sample/SSInAppNotification_Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F9C38B614F7B69500C8A33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SSInAppNotification_Sample/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSInAppNotification_Sample/SSInAppNotification_Sample-Prefix.pch";
+				INFOPLIST_FILE = "SSInAppNotification_Sample/SSInAppNotification_Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9C389014F7B69400C8A33B /* Build configuration list for PBXProject "SSInAppNotification_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9C38B214F7B69500C8A33B /* Debug */,
+				7F9C38B314F7B69500C8A33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9C38B414F7B69500C8A33B /* Build configuration list for PBXNativeTarget "SSInAppNotification_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9C38B514F7B69500C8A33B /* Debug */,
+				7F9C38B614F7B69500C8A33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9C388D14F7B69400C8A33B /* Project object */;
+}
