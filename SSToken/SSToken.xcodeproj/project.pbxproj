@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2C1556176482CE0004A6E0 /* SSToken.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C1555176482CE0004A6E0 /* SSToken.m */; };
+		AA2C15591764BD2B0004A6E0 /* SSTokenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C15581764BD2B0004A6E0 /* SSTokenObject.m */; };
+		AAA0E28F176625180048D2FA /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA0E28C176625180048D2FA /* left.png */; };
+		AAA0E290176625180048D2FA /* mid.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA0E28D176625180048D2FA /* mid.png */; };
+		AAA0E291176625180048D2FA /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA0E28E176625180048D2FA /* right.png */; };
+		AAAF285217831934005E26AC /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAF284D17831934005E26AC /* left@2x.png */; };
+		AAAF285317831934005E26AC /* mid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAF284E17831934005E26AC /* mid@2x.png */; };
+		AAAF285417831934005E26AC /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAF284F17831934005E26AC /* right@2x.png */; };
+		AAAF285517831934005E26AC /* Token_close.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAF285017831934005E26AC /* Token_close.png */; };
+		AAAF285617831934005E26AC /* Token_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAF285117831934005E26AC /* Token_close@2x.png */; };
+		AAB418151764778B00124C8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB418141764778B00124C8D /* Cocoa.framework */; };
+		AAB4181F1764778B00124C8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB4181D1764778B00124C8D /* InfoPlist.strings */; };
+		AAB418211764778B00124C8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB418201764778B00124C8D /* main.m */; };
+		AAB418251764778B00124C8D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AAB418231764778B00124C8D /* Credits.rtf */; };
+		AAB418281764778B00124C8D /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB418271764778B00124C8D /* MCAppDelegate.m */; };
+		AAB4182B1764778B00124C8D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB418291764778B00124C8D /* MainMenu.xib */; };
+		AACEE651176CA1230089F57B /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACEE650176CA1230089F57B /* Quartz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA2C1554176482CE0004A6E0 /* SSToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToken.h; sourceTree = "<group>"; };
+		AA2C1555176482CE0004A6E0 /* SSToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSToken.m; sourceTree = "<group>"; };
+		AA2C15571764BD2B0004A6E0 /* SSTokenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTokenObject.h; sourceTree = "<group>"; };
+		AA2C15581764BD2B0004A6E0 /* SSTokenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTokenObject.m; sourceTree = "<group>"; };
+		AAA0E28C176625180048D2FA /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		AAA0E28D176625180048D2FA /* mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mid.png; sourceTree = "<group>"; };
+		AAA0E28E176625180048D2FA /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		AAAF284D17831934005E26AC /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
+		AAAF284E17831934005E26AC /* mid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mid@2x.png"; sourceTree = "<group>"; };
+		AAAF284F17831934005E26AC /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
+		AAAF285017831934005E26AC /* Token_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Token_close.png; sourceTree = "<group>"; };
+		AAAF285117831934005E26AC /* Token_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Token_close@2x.png"; sourceTree = "<group>"; };
+		AAB418111764778B00124C8D /* SSToken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSToken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB418141764778B00124C8D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AAB418171764778B00124C8D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AAB418181764778B00124C8D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AAB418191764778B00124C8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAB4181C1764778B00124C8D /* SSToken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSToken-Info.plist"; sourceTree = "<group>"; };
+		AAB4181E1764778B00124C8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAB418201764778B00124C8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB418221764778B00124C8D /* SSToken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSToken-Prefix.pch"; sourceTree = "<group>"; };
+		AAB418241764778B00124C8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AAB418261764778B00124C8D /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		AAB418271764778B00124C8D /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		AAB4182A1764778B00124C8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AACEE650176CA1230089F57B /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB4180E1764778B00124C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACEE651176CA1230089F57B /* Quartz.framework in Frameworks */,
+				AAB418151764778B00124C8D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2C1553176482B20004A6E0 /* SSToken */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0E28B1766250B0048D2FA /* Images */,
+				AA2C1554176482CE0004A6E0 /* SSToken.h */,
+				AA2C1555176482CE0004A6E0 /* SSToken.m */,
+			);
+			path = SSToken;
+			sourceTree = "<group>";
+		};
+		AAA0E28B1766250B0048D2FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0E28C176625180048D2FA /* left.png */,
+				AAA0E28D176625180048D2FA /* mid.png */,
+				AAA0E28E176625180048D2FA /* right.png */,
+				AAAF284D17831934005E26AC /* left@2x.png */,
+				AAAF284E17831934005E26AC /* mid@2x.png */,
+				AAAF284F17831934005E26AC /* right@2x.png */,
+				AAAF285017831934005E26AC /* Token_close.png */,
+				AAAF285117831934005E26AC /* Token_close@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AAB418081764778B00124C8D = {
+			isa = PBXGroup;
+			children = (
+				AAB4181A1764778B00124C8D /* SSToken */,
+				AAB418131764778B00124C8D /* Frameworks */,
+				AAB418121764778B00124C8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB418121764778B00124C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB418111764778B00124C8D /* SSToken.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB418131764778B00124C8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACEE650176CA1230089F57B /* Quartz.framework */,
+				AAB418141764778B00124C8D /* Cocoa.framework */,
+				AAB418161764778B00124C8D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAB418161764778B00124C8D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB418171764778B00124C8D /* AppKit.framework */,
+				AAB418181764778B00124C8D /* CoreData.framework */,
+				AAB418191764778B00124C8D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AAB4181A1764778B00124C8D /* SSToken */ = {
+			isa = PBXGroup;
+			children = (
+				AA2C15571764BD2B0004A6E0 /* SSTokenObject.h */,
+				AA2C15581764BD2B0004A6E0 /* SSTokenObject.m */,
+				AAB418261764778B00124C8D /* MCAppDelegate.h */,
+				AAB418271764778B00124C8D /* MCAppDelegate.m */,
+				AAB418291764778B00124C8D /* MainMenu.xib */,
+				AA2C1553176482B20004A6E0 /* SSToken */,
+				AAB4181B1764778B00124C8D /* Supporting Files */,
+			);
+			path = SSToken;
+			sourceTree = "<group>";
+		};
+		AAB4181B1764778B00124C8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4181C1764778B00124C8D /* SSToken-Info.plist */,
+				AAB4181D1764778B00124C8D /* InfoPlist.strings */,
+				AAB418201764778B00124C8D /* main.m */,
+				AAB418221764778B00124C8D /* SSToken-Prefix.pch */,
+				AAB418231764778B00124C8D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB418101764778B00124C8D /* SSToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB4182E1764778B00124C8D /* Build configuration list for PBXNativeTarget "SSToken" */;
+			buildPhases = (
+				AAB4180D1764778B00124C8D /* Sources */,
+				AAB4180E1764778B00124C8D /* Frameworks */,
+				AAB4180F1764778B00124C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSToken;
+			productName = SSToken;
+			productReference = AAB418111764778B00124C8D /* SSToken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB418091764778B00124C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SS;
+			};
+			buildConfigurationList = AAB4180C1764778B00124C8D /* Build configuration list for PBXProject "SSToken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAB418081764778B00124C8D;
+			productRefGroup = AAB418121764778B00124C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB418101764778B00124C8D /* SSToken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB4180F1764778B00124C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB4181F1764778B00124C8D /* InfoPlist.strings in Resources */,
+				AAB418251764778B00124C8D /* Credits.rtf in Resources */,
+				AAB4182B1764778B00124C8D /* MainMenu.xib in Resources */,
+				AAA0E28F176625180048D2FA /* left.png in Resources */,
+				AAA0E290176625180048D2FA /* mid.png in Resources */,
+				AAA0E291176625180048D2FA /* right.png in Resources */,
+				AAAF285217831934005E26AC /* left@2x.png in Resources */,
+				AAAF285317831934005E26AC /* mid@2x.png in Resources */,
+				AAAF285417831934005E26AC /* right@2x.png in Resources */,
+				AAAF285517831934005E26AC /* Token_close.png in Resources */,
+				AAAF285617831934005E26AC /* Token_close@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB4180D1764778B00124C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB418211764778B00124C8D /* main.m in Sources */,
+				AAB418281764778B00124C8D /* MCAppDelegate.m in Sources */,
+				AA2C1556176482CE0004A6E0 /* SSToken.m in Sources */,
+				AA2C15591764BD2B0004A6E0 /* SSTokenObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAB4181D1764778B00124C8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB4181E1764778B00124C8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AAB418231764778B00124C8D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB418241764778B00124C8D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AAB418291764778B00124C8D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB4182A1764778B00124C8D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB4182C1764778B00124C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAB4182D1764778B00124C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAB4182F1764778B00124C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSToken/SSToken-Prefix.pch";
+				INFOPLIST_FILE = "SSToken/SSToken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAB418301764778B00124C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSToken/SSToken-Prefix.pch";
+				INFOPLIST_FILE = "SSToken/SSToken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB4180C1764778B00124C8D /* Build configuration list for PBXProject "SSToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB4182C1764778B00124C8D /* Debug */,
+				AAB4182D1764778B00124C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB4182E1764778B00124C8D /* Build configuration list for PBXNativeTarget "SSToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB4182F1764778B00124C8D /* Debug */,
+				AAB418301764778B00124C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB418091764778B00124C8D /* Project object */;
+}
